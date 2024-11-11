@@ -67,9 +67,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
       case AppLifecycleState.detached:
         print("App is detached");
         break;
-      case AppLifecycleState.hidden:
-        print("App is detached");
-        break;
+     
 
 
       default:
